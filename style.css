@@ -1,0 +1,61 @@
+:root{
+    --white:#f7eeee;
+    --primary:#D2AC47;
+    --sub-primary:#bb9221;
+    --secondary:#908D8F;
+    --sub-secondary:#FFFFFF;
+}
+body{
+    margin:0;
+    height:100wh;
+    width:100vw;
+    background-color: var(--white);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+#pop-cont{
+    height:400px;
+    width:400px;
+    background-color: red;
+    z-index: 100;
+    position: absolute;
+    bottom:5px;
+    left:5px;
+
+
+}
+#hero-section{
+    width:100vw;
+    height:90vh;
+    background-image: url(content/herofiller.jpg);
+    background-position: center;
+    background-size:cover
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin:auto;
+    width:70vw;
+}
+li{
+    list-style-type:none;
+    font-size: 35px;
+    color:black;
+    margin-top:75px;
+    font-family: inherit;
+}
+#hero-content{
+    width:600px;
+    position:absolute;
+    top:45%;
+    margin-left:5%;
+}
+#hero-button{
+    height:60px;
+    width:150px;
+    background-color: var(--primary);
+    font-size:25px;
+}
+
+
+  
